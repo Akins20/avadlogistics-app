@@ -1,0 +1,7 @@
+{
+  "name": "avadlogistics-app",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

@@ -1,0 +1,19 @@
+.settings-card{
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.settings-card-text{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
+
+.text-danger{
+    color: rgb(180, 40, 40);
+}
+
+.settings-body{
+    background: rgb(238, 236, 236);
+    height: 100vh;
+}

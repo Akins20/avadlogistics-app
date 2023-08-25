@@ -1,0 +1,107 @@
+.homeheader {
+    background: linear-gradient(107.88deg, #2F2F2F 20.1%, rgba(64, 60, 53, 0.918646) 86.19%, rgba(224, 180, 106, 0.147554) 203.07%, rgba(255, 203, 116, 0) 205.76%);
+    position: absolute;
+    top: -10px;
+    padding: 20px;
+    border-top-left-radius: 0;
+    text-align: left;
+    width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.headericon {
+    text-align: right;
+    font-size: 32px;
+    color: white;
+}
+
+.header-right{
+    text-align: right;
+    float: right;
+    padding-right: 15px;
+}
+
+.header-left{
+    padding-left: 20px;
+    text-align: left;
+}
+
+.homeshipping{
+    background: white;
+    position: relative;
+    color: black;
+    border-radius: 15px;
+    top: 80px;
+}
+
+.homeshipping-card{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.wallet {
+    position: relative;
+    top: 170px;
+    padding-bottom: 65px;
+}
+
+.text-dark{
+    color: black;
+}
+
+.quick-links{
+    position: relative;
+    top: 470px;
+    padding-bottom: 150px;
+}
+
+.shipping-image-center{
+    margin-left: 10px;
+}
+
+.quick-links-icon{
+    font-size: 28px;
+    float: left;
+    margin-right: -5px;
+    margin-left: 5px;
+    padding: 0;
+    color: #059142;
+}
+
+.quick-links-card{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.quick-links-text{
+    padding-top: 5px;
+    margin-bottom: -5px;
+}
+
+.body-white{
+    background: white;
+}
+
+.quick-links-hover{
+    margin-right: auto;
+}
+.quick-links-hover:focus{
+    border-color: rgb(86, 86, 175);
+}
+
+.header-input{
+    background-color: white;
+    border-radius: 15px;
+    width: 220px;
+    margin-right: 20px;
+}
+
+.header-search{
+    display: flex;
+    height: 15vh;
+}
+
+.header-search-button{
+    width: 80px;
+}

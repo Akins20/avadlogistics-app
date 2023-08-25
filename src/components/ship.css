@@ -1,0 +1,71 @@
+.shipcards{
+    position: relative;
+    margin-top: 300px;
+    background-color: white;
+}
+
+.shipcards1{
+    position: relative;
+    margin-top: 0px;
+    background-color: white;
+}
+
+.shipcards2{
+    position: relative;
+    margin-bottom: 300px;
+    background-color: white;
+}
+
+.shipheader{
+    position: absolute;
+    margin-top: -375px;
+    padding: 20px;
+    border-top-left-radius: 1px;
+    text-align: left;
+    width: 100vw;
+    margin-left: 0;
+    margin-right: 0;
+    background: url("src/assets/shipImage.png");
+    margin-bottom: 30px;
+    
+}
+
+.shipheadertext{
+    color: white;
+}
+
+.cardunit {
+    display: flex;
+    height: 100px;
+}
+
+.icon{
+    font-size: 32px;
+    margin-top: 30px;
+    color: rgb(48, 47, 47);
+}
+
+.iconcard{
+    background-color: rgba(180, 177, 174, 0.919);
+    margin: 0;
+    padding: 0;
+    width: 30vw;
+}
+
+.cardcontent{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    text-align: left;
+}
+
+.subtitle{
+    font-size: 18px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 5px;
+}
+
+.shiptext{
+    font-size: 12px;
+}
