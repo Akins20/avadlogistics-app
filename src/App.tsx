@@ -37,6 +37,7 @@ import ShipTab from './pages/ShipTab';
 import HistoryTab from './pages/HistoryTab';
 import SettingsTab from './pages/SettingsTab';
 import SignInTab from './pages/SignInTab';
+import GetQuote from './components/subComponents/GetQuote';
 
 setupIonicReact();
 
@@ -68,6 +69,9 @@ const App: React.FC = () => (
           </Route>
           <Route path="/tab3">
             <Tab3 />
+          </Route>
+          <Route path="/getquote">
+            <GetQuote name='quote' />
           </Route>
 
         </IonRouterOutlet>

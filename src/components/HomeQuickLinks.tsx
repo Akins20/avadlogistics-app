@@ -17,7 +17,7 @@ const QuickLinks: React.FC<ContainerProps> = () => {
             <div className='quick-links-card'>
                 <IonRow>
                     <IonCol>
-                        <IonRouterLink href=''>
+                        <IonRouterLink href='getquote'>
                             <IonCard className='body-white quick-links-hover'>
                                 <IonCardTitle>
                                     <span className='text-dark'>

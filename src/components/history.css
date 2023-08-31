@@ -45,6 +45,13 @@
     background: #059142;
 }
 
+
+.history-card-main:hover, .history-card-duplicate:hover, .history-card-duplicate-1:hover, .history-card-final:hover{
+    z-index: 5;
+    height: 20vh;
+    transition: 0.5s;
+}
+
 .history-card-duplicate{
     margin-top: -45px;
     padding: 10px;
@@ -71,7 +78,7 @@
     margin-top: -45px;
     padding: 10px;
     border-radius: 15px;
-    height: 13vh;
+    height: 15vh;
     background: #07DA63;
     margin-bottom: 30px;
     z-index: 3;
