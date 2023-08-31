@@ -8,6 +8,7 @@
     width: 100vw;
     margin-left: 0;
     margin-right: 0;
+    height: 28vh;
 }
 
 .headericon {
@@ -32,7 +33,7 @@
     position: relative;
     color: black;
     border-radius: 15px;
-    top: 80px;
+    top: 110px;
 }
 
 .homeshipping-card{
@@ -44,6 +45,7 @@
     position: relative;
     top: 170px;
     padding-bottom: 65px;
+    height: max-content;
 }
 
 .text-dark{
@@ -93,15 +95,27 @@
 .header-input{
     background-color: white;
     border-radius: 15px;
-    width: 220px;
-    margin-right: 20px;
+    border-color: transparent;
+    width: 60vw;
+    height: 4vh;
+    margin-right: 10px;
 }
 
 .header-search{
+    margin-top: 4vh;
     display: flex;
-    height: 15vh;
 }
 
 .header-search-button{
-    width: 80px;
+    width: 25vw;
+    height: 8vh;
+}
+
+.wallet-input{
+    background-color: aliceblue;
+    left: 4vw;
+    text-align: center;
+    line-height: 50px;
+    height: 3vh;
+    border-radius: 10px;
 }

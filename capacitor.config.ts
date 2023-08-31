@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'avadlogistics.app',
-  appName: 'avadlogistics-app',
+  appName: 'AVAD Logistics',
   webDir: 'dist',
   server: {
     androidScheme: 'https'

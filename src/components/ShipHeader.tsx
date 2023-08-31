@@ -1,4 +1,4 @@
-import {IonCardTitle, IonCard, IonIcon, IonRouterLink, IonText, IonRow, IonCol } from '@ionic/react';
+import { IonCardTitle, IonCard, IonIcon, IonRouterLink, IonText, IonRow, IonCol } from '@ionic/react';
 import { arrowUndo } from 'ionicons/icons';
 import './ship.css';
 
@@ -14,8 +14,10 @@ const ShipHeader: React.FC<ContainerProps> = () => {
             <IonCard className='shipheader'>
                 <IonRow>
                     <IonCol>
-                        <IonRouterLink href='/home'><IonIcon aria-hidden="true" icon={arrowUndo}></IonIcon></IonRouterLink><br/>
-                        <IonCardTitle>Hello Oseka</IonCardTitle><br/>
+                        <IonRouterLink href='/home'>
+                            <IonIcon icon={arrowUndo}>.</IonIcon>
+                        </IonRouterLink><br />
+                        <IonCardTitle>Hello Oseka</IonCardTitle><br />
                         <IonText className='shipheadertext'>KIndly select the most suitable vehicle to pick up your item(s).</IonText>
                     </IonCol>
                 </IonRow>

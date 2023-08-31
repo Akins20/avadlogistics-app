@@ -1,6 +1,6 @@
 .shipcards{
     position: relative;
-    margin-top: 300px;
+    margin-top: 340px;
     background-color: white;
 }
 
@@ -18,7 +18,7 @@
 
 .shipheader{
     position: absolute;
-    margin-top: -375px;
+    margin-top: -345px;
     padding: 20px;
     border-top-left-radius: 1px;
     text-align: left;
@@ -27,7 +27,7 @@
     margin-right: 0;
     background: url("src/assets/shipImage.png");
     margin-bottom: 30px;
-    
+    z-index: 5;
 }
 
 .shipheadertext{

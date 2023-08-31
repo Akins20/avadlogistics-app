@@ -57,7 +57,9 @@ const HistoryBody: React.FC<ContainerProps> = () => {
                         </IonCol>
                     </IonRow>
                 </IonCard>
-                <IonRouterLink href="" className="text-center">See all</IonRouterLink>
+                <div className="text-center">
+                    <IonRouterLink href="" >See all</IonRouterLink>
+                </div>
             </IonCard>
         </div>
     )

@@ -38,6 +38,7 @@ import HistoryTab from './pages/HistoryTab';
 import SettingsTab from './pages/SettingsTab';
 import SignInTab from './pages/SignInTab';
 import GetQuote from './components/subComponents/GetQuote';
+import SupportTab from './pages/SupportTab';
 
 setupIonicReact();
 
@@ -60,6 +61,9 @@ const App: React.FC = () => (
           </Route>
           <Route exact path="/settings">
             <SettingsTab />
+          </Route>
+          <Route exact path="/support">
+            <SupportTab />
           </Route>
           <Route exact path="/signin">
             <SignInTab />
@@ -88,7 +92,7 @@ const App: React.FC = () => (
             <IonIcon aria-hidden="true" icon={timeOutline} />
             <IonLabel>History</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="tab3" href="/tab3">
+          <IonTabButton tab="support" href="/support">
             <IonIcon aria-hidden="true" icon={chatbox} />
             <IonLabel>Support</IonLabel>
           </IonTabButton>

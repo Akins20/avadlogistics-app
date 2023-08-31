@@ -15,5 +15,9 @@
 
 .settings-body{
     background: rgb(238, 236, 236);
-    height: 100vh;
+    height: 80vh;
+}
+
+.settings-body::backdrop{
+    background-color: rgb(238, 236, 236);
 }

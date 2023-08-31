@@ -72,7 +72,9 @@ const SettingsCard: React.FC<ContainerProps> = () => {
                     </IonCardSubtitle>
                 </IonRouterLink>
             </IonCard>
-            <IonRouterLink href="/signin" className="text-center text-danger">Sign Out</IonRouterLink>
+            <div className="text-center">
+                <IonRouterLink href="/signin" className="text-danger">Sign Out</IonRouterLink>
+            </div>
         </div>
 
     )
