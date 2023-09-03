@@ -23,7 +23,7 @@ const HomeHeader: React.FC<ContainerProps> = () => {
                     </IonCol>
                 </IonRow>
                 <div className='header-search'>
-                    <IonInput type='search' className='header-input' placeholder='Enter tracking ID'></IonInput>
+                    <input type='search' className='header-input' placeholder='Enter tracking ID'></input>
                     <IonButton className='header-search-button'>Search</IonButton>
                 </div>
             </IonCard>

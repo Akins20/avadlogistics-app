@@ -32,7 +32,7 @@ const QuickLinks: React.FC<ContainerProps> = () => {
                         </IonRouterLink>
                     </IonCol>
                     <IonCol>
-                        <IonRouterLink href=''>
+                        <IonRouterLink href='findlocation'>
                             <IonCard className='body-white quick-links-hover'>
                                 <IonCardTitle>
                                     <span className='text-dark'>
@@ -49,7 +49,7 @@ const QuickLinks: React.FC<ContainerProps> = () => {
                 </IonRow>
                 <IonRow>
                     <IonCol>
-                        <IonRouterLink href=''>
+                        <IonRouterLink href='promotions'>
                             <IonCard className='body-white quick-links-hover'>
                                 <IonCardTitle>
                                     <span className='text-dark'>

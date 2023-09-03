@@ -1,0 +1,65 @@
+.locationIcon{
+    font-size: 20px;
+    position: relative;
+}
+
+.locationStyle{
+    height: 50px;
+}
+
+.cardLine{
+    width: 50vw;
+    left: 18vw;
+    height: 1vh;
+    cursor: pointer;
+}
+
+.locationCard{
+    background-color: rgb(229, 230, 232);
+    position: relative;
+    animation: location 1.5 forwards 0 ease-in;
+    height: 100vh;
+    overflow-y: visible;
+    padding-bottom: 20vh;
+    margin-bottom: 100vh;
+}
+
+.locationCard-row{
+    background-color: white;
+    border-radius: 15px;
+    height: 10vh;
+    margin-top: 2vh;
+}
+
+.locationCard-icon1, .locationCard-icon2{
+    font-size: 24px;
+    margin-top: 1.5vh;
+}
+
+.locationCard-icon1{
+    position: absolute;
+    left: 66vw;
+
+}
+
+.locationCard-icon2{
+    float: right;
+}
+
+.locationCard-text{
+    width: 72vw;
+    position: absolute;
+    color: black;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+@keyframes location {
+    from{
+        top:100vh;
+    }
+
+    to {
+        top: 0vh;
+    }
+}

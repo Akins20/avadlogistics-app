@@ -1,0 +1,62 @@
+.quoteStyle .quoteIcon{
+    font-size: 20px;
+    position: absolute;
+}
+
+.quoteText{
+    margin-left: 8vw;
+    margin-right: 10vw;
+}
+
+.bg-white, .text-light{
+    background-color: white;
+}
+
+.quoteCard{
+    background-color: rgb(229, 230, 232);
+}
+
+.quoteInput:-ms-input-placeholder{
+    margin-left: 20px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.quoteInput{
+    background-color: white;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.quoteInput .quoteInputIcon{
+    margin-top: 2vh;
+    position: absolute;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+.quoteButton{
+    top: 85vh;
+    position: absolute;
+}
+
+.quoteButton .button{
+    width: 95vw;
+    margin-left: 2.5vw;
+}
+
+.quotationCard{
+    background-color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.quotationInfo-title{
+    font-size: 18px;
+}
+
+.quotationInfo-text{
+    font-size: 16px;
+    line-height: 28px;
+    color: black;
+}

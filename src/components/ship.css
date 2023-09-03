@@ -18,7 +18,7 @@
 
 .shipheader{
     position: absolute;
-    margin-top: -345px;
+    margin-top: -2vh;
     padding: 20px;
     border-top-left-radius: 1px;
     text-align: left;

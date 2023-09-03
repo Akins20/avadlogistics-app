@@ -10,7 +10,7 @@ import {
   setupIonicReact
 } from '@ionic/react';
 import { IonReactRouter } from '@ionic/react-router';
-import { cart, cartSharp, chatbox, chatboxSharp, ellipse, home, settings, settingsOutline, square, timeOutline, triangle } from 'ionicons/icons';
+import {cartSharp, chatbox, home, settingsOutline, timeOutline} from 'ionicons/icons';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
 
@@ -37,8 +37,11 @@ import ShipTab from './pages/ShipTab';
 import HistoryTab from './pages/HistoryTab';
 import SettingsTab from './pages/SettingsTab';
 import SignInTab from './pages/SignInTab';
-import GetQuote from './components/subComponents/GetQuote';
+import GetQuote from './components/subComponents/quote/GetQuote';
 import SupportTab from './pages/SupportTab';
+import Quotation from './components/subComponents/quote/Quotation';
+import FindLocation from './components/subComponents/location/FindLocation';
+import Promotions from './components/subComponents/promotions/promotions';
 
 setupIonicReact();
 
@@ -76,6 +79,15 @@ const App: React.FC = () => (
           </Route>
           <Route path="/getquote">
             <GetQuote name='quote' />
+          </Route>
+          <Route path="/quotation">
+            <Quotation name='quotation' />
+          </Route>
+          <Route path="/findlocation">
+            <FindLocation name='location' />
+          </Route>
+          <Route path="/promotions">
+            <Promotions name='promotions' />
           </Route>
 
         </IonRouterOutlet>

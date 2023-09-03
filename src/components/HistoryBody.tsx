@@ -12,7 +12,7 @@ const HistoryBody: React.FC<ContainerProps> = () => {
                 <IonCard className="history-card-main">
                     <IonRow>
                         <IonCol>
-                            <IonCardTitle className="text-light">AVD7446AYM</IonCardTitle>
+                            <IonCardTitle className="text-white">AVD7446AYM</IonCardTitle>
                             <IonCardSubtitle className="history-card-text-2">Seoul, South Korea</IonCardSubtitle>
                         </IonCol>
                         <IonCol>
@@ -24,7 +24,7 @@ const HistoryBody: React.FC<ContainerProps> = () => {
                 <IonCard className="history-card-duplicate">
                     <IonRow>
                         <IonCol>
-                            <IonCardTitle className="text-light">AVD1401AYH</IonCardTitle>
+                            <IonCardTitle className="text-white">AVD1401AYH</IonCardTitle>
                             <IonCardSubtitle className="history-card-text-2">Johannesburg, South Africa</IonCardSubtitle>
                         </IonCol>
                         <IonCol>
@@ -36,7 +36,7 @@ const HistoryBody: React.FC<ContainerProps> = () => {
                 <IonCard className="history-card-duplicate-1">
                     <IonRow>
                         <IonCol>
-                            <IonCardTitle className="text-light">AVD2003HMN</IonCardTitle>
+                            <IonCardTitle className="text-white">AVD2003HMN</IonCardTitle>
                             <IonCardSubtitle className="history-card-text-2">Nairobi, Kenya</IonCardSubtitle>
                         </IonCol>
                         <IonCol>
@@ -48,7 +48,7 @@ const HistoryBody: React.FC<ContainerProps> = () => {
                 <IonCard className="history-card-final">
                     <IonRow>
                         <IonCol>
-                            <IonCardTitle className="text-light">AVD0673OKM</IonCardTitle>
+                            <IonCardTitle className="text-white">AVD0673OKM</IonCardTitle>
                             <IonCardSubtitle className="history-card-text-2">Singapore, Malaysia</IonCardSubtitle>
                         </IonCol>
                         <IonCol>

@@ -11,10 +11,10 @@ const Wallet: React.FC<ContainerProps> = () => {
                 <h5 className='header-left'>Fiat Balance</h5>
                 <IonRow>
                     <IonCol>
-                        <IonInput className="wallet-input" readonly>#5000</IonInput>
+                        <input className="wallet-input" readOnly placeholder="#5000"></input>
                     </IonCol>
                     <IonCol>
-                        <IonButton>Fund Wallet</IonButton>
+                        <IonButton className="wallet-button">Fund Wallet</IonButton>
                     </IonCol>
                 </IonRow>
             </div>

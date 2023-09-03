@@ -94,10 +94,11 @@
 
 .header-input{
     background-color: white;
-    border-radius: 15px;
+    border-radius: 5px;
     border-color: transparent;
     width: 60vw;
-    height: 4vh;
+    height: 5vh;
+    margin-top: 1vh;
     margin-right: 10px;
 }
 
@@ -108,7 +109,8 @@
 
 .header-search-button{
     width: 25vw;
-    height: 8vh;
+    height: 5vh;
+    margin-top: 1vh;
 }
 
 .wallet-input{
@@ -116,6 +118,15 @@
     left: 4vw;
     text-align: center;
     line-height: 50px;
-    height: 3vh;
-    border-radius: 10px;
+    height: 5vh;
+    border-radius: 5px;
+    border-color: transparent;
+    box-shadow: 1px 1px #929090;
+}
+
+.wallet-button{
+    position: relative;
+    width: 30vw;
+    height: 5vh;
+    margin-top: -0.5vh;
 }

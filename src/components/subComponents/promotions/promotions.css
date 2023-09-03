@@ -1,0 +1,42 @@
+.promoCard{
+    background-color: white;
+    cursor: pointer;
+}
+
+.promoText{
+    color: black;
+    margin-left: 3vw;
+}
+
+.promoIcon{
+    color: green;
+    font-size: 18px;
+}
+
+.promoCardIcon{
+    color: green;
+    margin-top: 1vh;
+}
+
+.promoBody{
+    margin-top: 35vh;
+    color: rgb(128, 122, 122);
+    display: flex;
+    justify-content: center;
+}
+
+.promoBodyIcon{
+    color: green;
+    background-color: aquamarine;
+    padding: 15px;
+    border-radius: 180px;
+    font-size: 24px;
+    position: absolute;
+    top: 44vh;
+
+}
+
+.promoBodyText{
+    width: 40vw;
+    text-align: center;
+}
