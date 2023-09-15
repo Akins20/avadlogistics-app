@@ -1,13 +1,14 @@
 import { IonHeader, IonToolbar, IonTitle, IonIcon, IonRow, IonCol, IonRouterLink } from "@ionic/react";
 import { arrowUndo, car } from "ionicons/icons";
-import FrequentQuestionsInfo from "./FrequntQuestionsInfo";
+import PickupLocationBody from "./pickupLocationBody";
+
 
 
 interface ContainerProps {
     name: string;
 }
 
-const FrequentlyAskedQuestions: React.FC<ContainerProps> = () => {
+const PickupLocation: React.FC<ContainerProps> = () => {
     return (
 
         <div className="quoteStyle">
@@ -15,17 +16,17 @@ const FrequentlyAskedQuestions: React.FC<ContainerProps> = () => {
                 <IonToolbar className='bg-white'>
                     <IonRow>
                         <IonCol>
-                            <IonRouterLink href="/">
+                            <IonRouterLink href="/ship">
                                 <IonIcon className="quoteIcon" icon={arrowUndo}></IonIcon>
                             </IonRouterLink>
-                            <IonTitle className='text-center'>Frequently Asked Questions</IonTitle>
+                            <IonTitle className='text-center'>Pickup Location</IonTitle>
                         </IonCol>
                     </IonRow>
                 </IonToolbar>
             </IonHeader>
-            <FrequentQuestionsInfo name="questions"/>
+            <PickupLocationBody name="pickupbody"/>
         </div>
     )
 }
 
-export default FrequentlyAskedQuestions
+export default PickupLocation

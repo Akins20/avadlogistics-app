@@ -1,5 +1,3 @@
-import { IonCard, IonCardTitle, IonRouterLink, IonText } from "@ionic/react";
-import { arrowUndo, car } from "ionicons/icons";
 
 interface ContainerProps {
     name: string;
