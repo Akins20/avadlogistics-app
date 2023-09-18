@@ -12,7 +12,7 @@ const ShipCards: React.FC<ContainerProps> = () => {
 
         <div className='container'>
 
-            <IonRouterLink href=''>
+            <IonRouterLink href='pickuplocation'>
                 <IonCard className='shipcards'>
                     <div className='cardunit'>
                         <div className='iconcard'>
@@ -28,7 +28,7 @@ const ShipCards: React.FC<ContainerProps> = () => {
                 </IonCard>
             </IonRouterLink>
 
-            <IonRouterLink href=''>
+            <IonRouterLink href='pickuplocation'>
                 <IonCard className='shipcards1'>
                     <div className='cardunit'>
                         <div className='iconcard'>
@@ -43,7 +43,7 @@ const ShipCards: React.FC<ContainerProps> = () => {
                 </IonCard>
             </IonRouterLink>
 
-            <IonRouterLink href=''>
+            <IonRouterLink href='pickuplocation'>
                 <IonCard className='shipcards1'>
                     <div className='cardunit'>
                         <div className='iconcard'>
@@ -58,7 +58,7 @@ const ShipCards: React.FC<ContainerProps> = () => {
                 </IonCard>
             </IonRouterLink>
 
-            <IonRouterLink href=''>
+            <IonRouterLink href='pickuplocation'>
                 <IonCard className='shipcards2'>
                     <div className='cardunit'>
                         <div className='iconcard'>

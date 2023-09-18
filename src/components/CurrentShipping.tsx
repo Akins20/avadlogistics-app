@@ -13,7 +13,7 @@ const CurrentShipping: React.FC<ContainerProps> = () => {
                 <IonRow className='homeshipping-card'>
                     <IonCol>
                         <IonCardTitle className='text-dark'>Current Shipping</IonCardTitle>
-                        <IonCardTitle className='text-dark'>ID: AVD3733TOS</IonCardTitle>
+                        <IonCardTitle className='text-dark'>ID:AVD3733TOS</IonCardTitle>
                     </IonCol>
                     <IonCol>
                         <IonRouterLink href='' className='header-right'>See More</IonRouterLink>

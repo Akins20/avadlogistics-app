@@ -1,0 +1,114 @@
+.pickupCard {
+    background: #F8F9FA;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+input {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 5vh;
+    width: 85vw;
+    margin: 10px;
+    margin-left: 0px;
+    padding-left: 35px;
+    border-color: transparent;
+}
+
+.shipLabel{
+    color: black;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.shipIcon1{
+    position: absolute;
+    font-size: 26px;
+    z-index: 5;
+    top: 7vh;
+    color:green;
+}
+
+.shipIcon2{
+    position: absolute;
+    font-size: 26px;
+    z-index: 5;
+    top: 20vh;
+    color: red;
+}
+
+.shipImage{
+    position: absolute;
+    top: 30vh;
+    z-index: -10;
+    /* margin-left: 2%; */
+    width: 100vw;
+}
+
+.shipButton{
+    position: absolute;
+    color: white;
+    background-color: #059142;
+    margin-left: 2%;
+    top: 83vh;
+    height: 6vh;
+    font-size: 16px;
+    font-weight: 600;
+    width: 95vw;
+    border-radius: 5px;
+}
+
+.pickupForm{
+    border-color: antiquewhite;
+    padding: 20px;
+}
+
+label{
+    color: black;
+    font-weight: 300;
+}
+
+.pickupForm input{
+    background-color: #F8F9FA;
+    color: black;
+}
+
+.confirmInput{
+    height: 3vh;
+}
+
+.confirmCheckbox{
+    height: 2vh;
+    position: absolute;
+    left: 90vw;
+    top: 38vh;
+    box-shadow: grey 2px 3px 4px;
+    width: auto;
+    background-color: white;
+    color: white;
+}
+
+.confirmButton1{
+    position: absolute;
+    color: white;
+    background-color: #059142;
+    top: 75vh;
+    height: 6vh;
+    font-size: 16px;
+    font-weight: 600;
+    width: 90vw;
+    border-radius: 5px;
+}
+
+.confirmButton2{
+    position: absolute;
+    color: #059142;
+    background-color: white;
+    top: 83vh;
+    box-shadow: grey 2px 3px 4px;
+    height: 6vh;
+    font-size: 16px;
+    font-weight: 600;
+    width: 90vw;
+    border-radius: 5px;
+}
