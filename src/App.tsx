@@ -46,6 +46,9 @@ import HomeHelp from './components/subComponents/homeHelp/HomeHelp';
 import FrequentlyAskedQuestions from './components/subComponents/frequentQuestions/FrequentlyAskedQuestions';
 import PickupLocation from './components/subComponents/shipSubs/pickupLocation';
 import PickupConfirm from './components/subComponents/shipSubs/pickupConfirm';
+import YourQuotation from './components/subComponents/shipSubs/pointOfPickup'
+import QuotationReceipt from './components/subComponents/shipSubs/quotationReceipt';
+import DownloadReceipt from './components/subComponents/shipSubs/downloadReceipt'
 
 setupIonicReact();
 
@@ -105,6 +108,16 @@ const App: React.FC = () => (
           <Route path="/pickupconfirm">
             <PickupConfirm name='pickupconfirm' />
           </Route>
+          <Route path="/yourquotation">
+            <YourQuotation name='yourquotation' />
+          </Route>
+          <Route path="/quotationreceipt">
+            <QuotationReceipt name='quotationreceipt'/>
+          </Route>
+          <Route path="/downloadreceipt">
+            <DownloadReceipt name='downloadreceipt' />
+          </Route>
+
 
         </IonRouterOutlet>
         <IonTabBar slot="bottom">

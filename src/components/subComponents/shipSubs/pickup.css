@@ -15,21 +15,21 @@ input {
     border-color: transparent;
 }
 
-.shipLabel{
+.shipLabel {
     color: black;
     font-weight: 500;
     font-size: 16px;
 }
 
-.shipIcon1{
+.shipIcon1 {
     position: absolute;
     font-size: 26px;
     z-index: 5;
     top: 7vh;
-    color:green;
+    color: green;
 }
 
-.shipIcon2{
+.shipIcon2 {
     position: absolute;
     font-size: 26px;
     z-index: 5;
@@ -37,7 +37,7 @@ input {
     color: red;
 }
 
-.shipImage{
+.shipImage {
     position: absolute;
     top: 30vh;
     z-index: -10;
@@ -45,7 +45,7 @@ input {
     width: 100vw;
 }
 
-.shipButton{
+.shipButton {
     position: absolute;
     color: white;
     background-color: #059142;
@@ -58,26 +58,26 @@ input {
     border-radius: 5px;
 }
 
-.pickupForm{
+.pickupForm {
     border-color: antiquewhite;
     padding: 20px;
 }
 
-label{
+label {
     color: black;
     font-weight: 300;
 }
 
-.pickupForm input{
+.pickupForm input {
     background-color: #F8F9FA;
     color: black;
 }
 
-.confirmInput{
+.confirmInput {
     height: 3vh;
 }
 
-.confirmCheckbox{
+.confirmCheckbox {
     height: 2vh;
     position: absolute;
     left: 90vw;
@@ -88,7 +88,7 @@ label{
     color: white;
 }
 
-.confirmButton1{
+.confirmButton1 {
     position: absolute;
     color: white;
     background-color: #059142;
@@ -100,7 +100,7 @@ label{
     border-radius: 5px;
 }
 
-.confirmButton2{
+.confirmButton2 {
     position: absolute;
     color: #059142;
     background-color: white;
@@ -111,4 +111,76 @@ label{
     font-weight: 600;
     width: 90vw;
     border-radius: 5px;
+}
+
+.downldRcptBody {
+    margin: 0px 18px 18px 18px;
+}
+
+.downldRcptHeader {
+    padding: 2rem 2rem 1.5rem 2rem;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.downldRcptSubHeader {
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+.downldRcptIntro {
+    position: relative;
+    margin-left: 0vw;
+    top: 2vh;
+    text-align: left;
+    font-size: 15px;
+}
+
+.downldRcptDetails {
+    top: 7vh;
+    font-size: 15px;
+}
+
+.downldRcpttab1 {
+    font-weight: 600;
+}
+
+.downldRcpttab21 {
+    margin-left: 48.4vw
+}
+
+.downldRcpttab22 {
+    margin-left: 61.2vw
+}
+
+.downldRcpttab23 {
+    margin-left: 9.8vw;
+    font-weight: 600
+}
+
+.downldRcptButton {
+    position: relative;
+    color: white;
+    background-color: #059142;
+    height: 6vh;
+    font-size: 16px;
+    font-weight: 600;
+    width: 90vw;
+    border-radius: 5px;
+    top: 9vh
+}
+
+.downldRcptthanks {
+    position: absolute;
+    margin-left: -90vw;
+    top: 62vh;
+    font-size: 15px;
+}
+
+.downldRcptReturnBtn {
+    position: absolute;
+    margin-left: -35vw;
+    top: 85vh;
+    color: #059142
 }
