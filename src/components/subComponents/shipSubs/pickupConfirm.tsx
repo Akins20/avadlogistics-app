@@ -35,10 +35,10 @@ const PickupConfirm: React.FC<ContainerProps> = () => {
                 <input type="number" name="transportItemNo" className="confirmInput" placeholder="Your response" id="transportItemNo" /><br></br>
                 <p>Request <IonRouterLink href="/">Concierge Services</IonRouterLink></p>
                 <input type="checkbox" className="confirmCheckbox" />
-                <IonRouterLink href="">
+                <IonRouterLink href="quotationreceipt">
                     <button type="button" className="confirmButton1">Pay Now</button>
                 </IonRouterLink>
-                <IonRouterLink href="">
+                <IonRouterLink href="yourquotation">
                     <button type="button" className="confirmButton2">Pay at point of pickup</button>
                 </IonRouterLink>
 
